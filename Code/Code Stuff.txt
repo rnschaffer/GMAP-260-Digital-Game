@@ -1,0 +1,5 @@
+--Place Code Documents Here -- 
+
+Feel free to organize files as is seen fit with other folders
+
+Please add on an comments on things that are, have been, or might be issues (such as merge conflicts, etc.)

@@ -1,0 +1,8 @@
+For this GitHub Repository -- 
+
+Code goes in Code folder, simple art assets that are being used go in art assets folder (who would have known...)
+UI stuff will also go in art folder
+
+If it is not being used directly in the game, don't put it in the repo, put it in google docs
+
+If a file is large, please let me know before committing it, I need to add an extension to prevent misshaps

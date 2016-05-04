@@ -1,0 +1,7 @@
+--Art Stuff in this folder--
+
+Please keep file sizes small if possible
+
+Feel free to organize folder structure as you see fit : however : once art assets have been placed in game be careful and notify devs before moving or changing folders
+
+List on here any important changes being made
