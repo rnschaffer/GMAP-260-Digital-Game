@@ -10,12 +10,14 @@
     <sprite>sprites\spr_player2</sprite>
     <sprite>sprites\spr_bot1</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_white</sprite>
     <sprite>sprites\spr_attack</sprite>
     <sprites name="items">
       <sprite>sprites\spr_attackUp</sprite>
       <sprite>sprites\sprt_defUp</sprite>
       <sprite>sprites\spr_spdUp</sprite>
     </sprites>
+    <sprite>sprites\spr_black</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -48,7 +50,8 @@
       <object>objects\obj_dispSpd</object>
     </objects>
     <object>objects\obj_bot1</object>
-    <object>objects\obj_attack</object>
+    <object>objects\obj_botSpawn</object>
+    <object>objects\obj_black</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_prototype</room>
