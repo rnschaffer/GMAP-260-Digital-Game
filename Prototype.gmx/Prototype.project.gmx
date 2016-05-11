@@ -51,7 +51,9 @@
     </objects>
     <object>objects\obj_bot1</object>
     <object>objects\obj_botSpawn</object>
+    <object>objects\obj_itemSpawn</object>
     <object>objects\obj_black</object>
+    <object>objects\reset_listen</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_prototype</room>
