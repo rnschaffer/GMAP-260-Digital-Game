@@ -20,6 +20,9 @@
       <sprite>sprites\spr_black</sprite>
       <sprite>sprites\spr_attack</sprite>
     </sprites>
+    <sprite>sprites\spr_izzyFront</sprite>
+    <sprite>sprites\spr_wallAlpha</sprite>
+    <sprite>sprites\spr_wallAlphaTop</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -58,8 +61,13 @@
         <object>objects\bossArea</object>
       </objects>
     </objects>
+    <object>objects\obj_playerOne</object>
+    <object>objects\obj_wallAlphaFront</object>
+    <object>objects\obj_wallAlphaTop</object>
+    <object>objects\obj_wallAlphaBack</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_alpha</room>
     <rooms name="prototype">
       <room>rooms\room_arena</room>
       <room>rooms\room_prototype</room>
