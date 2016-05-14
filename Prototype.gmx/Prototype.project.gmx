@@ -20,9 +20,14 @@
       <sprite>sprites\spr_black</sprite>
       <sprite>sprites\spr_attack</sprite>
     </sprites>
-    <sprite>sprites\spr_izzyFront</sprite>
     <sprite>sprites\spr_wallAlpha</sprite>
     <sprite>sprites\spr_wallAlphaTop</sprite>
+    <sprites name="izzy">
+      <sprite>sprites\spr_izzyFront</sprite>
+      <sprite>sprites\spr_izzyBack</sprite>
+      <sprite>sprites\spr_izzyLeft</sprite>
+      <sprite>sprites\spr_izzyRight</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -62,9 +67,12 @@
       </objects>
     </objects>
     <object>objects\obj_playerOne</object>
-    <object>objects\obj_wallAlphaFront</object>
+    <object>objects\obj_playerTwo</object>
+    <object>objects\obj_wallAlphaFrontForeground</object>
+    <object>objects\obj_wallAlphaFrontBackground</object>
     <object>objects\obj_wallAlphaTop</object>
-    <object>objects\obj_wallAlphaBack</object>
+    <object>objects\obj_wallAlphaEdgeForeground</object>
+    <object>objects\obj_wallAlphaEdgeBackground</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_alpha</room>
