@@ -27,7 +27,11 @@
       <sprite>sprites\spr_izzyBack</sprite>
       <sprite>sprites\spr_izzyLeft</sprite>
       <sprite>sprites\spr_izzyRight</sprite>
+      <sprite>sprites\spr_izzyHitBox</sprite>
     </sprites>
+    <sprite>sprites\spr_stairsDown</sprite>
+    <sprite>sprites\spr_stairsUp</sprite>
+    <sprite>sprites\spr_stairHitBox</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -73,6 +77,8 @@
     <object>objects\obj_wallAlphaTop</object>
     <object>objects\obj_wallAlphaEdgeForeground</object>
     <object>objects\obj_wallAlphaEdgeBackground</object>
+    <object>objects\obj_stairsDown</object>
+    <object>objects\obj_stairsUp</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_alpha</room>

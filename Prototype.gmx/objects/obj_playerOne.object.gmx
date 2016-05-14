@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>&lt;undefined&gt;</maskName>
+  <maskName>spr_izzyHitBox</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -110,6 +110,58 @@ movespeed = 15;
           <argument>
             <kind>0</kind>
             <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_stairsUp">
+      <action>
+        <libid>1</libid>
+        <id>109</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move_to</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-2304</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_stairsDown">
+      <action>
+        <libid>1</libid>
+        <id>109</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move_to</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>2304</string>
           </argument>
         </arguments>
       </action>
