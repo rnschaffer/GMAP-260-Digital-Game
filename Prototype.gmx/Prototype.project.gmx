@@ -32,6 +32,7 @@
     <sprite>sprites\spr_stairsDown</sprite>
     <sprite>sprites\spr_stairsUp</sprite>
     <sprite>sprites\spr_stairHitBox</sprite>
+    <sprite>sprites\spr_bot</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -71,6 +72,10 @@
         <object>objects\bossArea</object>
       </objects>
     </objects>
+    <object>objects\obj_alphaControl</object>
+    <object>objects\obj_spdBot</object>
+    <object>objects\obj_defBot</object>
+    <object>objects\obj_attBot</object>
     <object>objects\obj_playerOne</object>
     <object>objects\obj_playerTwo</object>
     <object>objects\obj_wallAlphaFrontForeground</object>
