@@ -104,6 +104,7 @@ p1x = obj_playerOne.x;
 p1y = obj_playerOne.y;
 p2x = obj_playerTwo.x;
 p2y = obj_playerTwo.y;
+depth = -y;
 p1dist = distance_to_object(obj_playerOne);
 p2dist = distance_to_object(obj_playerTwo);
 

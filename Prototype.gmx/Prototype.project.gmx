@@ -28,6 +28,12 @@
       <sprite>sprites\spr_izzyLeft</sprite>
       <sprite>sprites\spr_izzyRight</sprite>
       <sprite>sprites\spr_izzyHitBox</sprite>
+      <sprites name="attackBoxes">
+        <sprite>sprites\spr_izzyFrontAttack</sprite>
+        <sprite>sprites\spr_izzyBackAttack</sprite>
+        <sprite>sprites\spr_izzyLeftAttack</sprite>
+        <sprite>sprites\spr_izzyRightAttack</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\spr_stairsDown</sprite>
     <sprite>sprites\spr_stairsUp</sprite>
@@ -37,6 +43,9 @@
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\background0</background>
+    <background>background\background2</background>
+    <background>background\background3</background>
+    <background>background\background4</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -74,8 +83,6 @@
     </objects>
     <object>objects\obj_alphaControl</object>
     <object>objects\obj_spdBot</object>
-    <object>objects\obj_defBot</object>
-    <object>objects\obj_attBot</object>
     <object>objects\obj_playerOne</object>
     <object>objects\obj_playerTwo</object>
     <object>objects\obj_wallAlphaFrontForeground</object>
