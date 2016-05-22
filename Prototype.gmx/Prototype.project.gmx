@@ -33,6 +33,7 @@
         <sprite>sprites\spr_izzyBackAttack</sprite>
         <sprite>sprites\spr_izzyLeftAttack</sprite>
         <sprite>sprites\spr_izzyRightAttack</sprite>
+        <sprite>sprites\spr_izzyAttackBox</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\spr_stairsDown</sprite>
@@ -42,10 +43,9 @@
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
-    <background>background\background0</background>
-    <background>background\background2</background>
-    <background>background\background3</background>
     <background>background\background4</background>
+    <background>background\bg_mainMenu</background>
+    <background>background\bg_simples</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -82,9 +82,17 @@
       </objects>
     </objects>
     <object>objects\obj_alphaControl</object>
-    <object>objects\obj_spdBot</object>
-    <object>objects\obj_playerOne</object>
-    <object>objects\obj_playerTwo</object>
+    <objects name="player">
+      <object>objects\obj_playerOne</object>
+      <object>objects\obj_playerTwo</object>
+      <objects name="hitboxes">
+        <object>objects\obj_hitboxP1</object>
+        <object>objects\obj_hitboxP2</object>
+      </objects>
+    </objects>
+    <objects name="bot">
+      <object>objects\obj_spdBot</object>
+    </objects>
     <object>objects\obj_wallAlphaFrontForeground</object>
     <object>objects\obj_wallAlphaFrontBackground</object>
     <object>objects\obj_wallAlphaTop</object>
@@ -92,6 +100,9 @@
     <object>objects\obj_wallAlphaEdgeBackground</object>
     <object>objects\obj_stairsDown</object>
     <object>objects\obj_stairsUp</object>
+    <object>objects\obj_floor1spawn</object>
+    <object>objects\obj_floor2spawn</object>
+    <object>objects\obj_floor3spawn</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_alpha</room>
