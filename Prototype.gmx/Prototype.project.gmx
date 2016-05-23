@@ -51,6 +51,7 @@
   <fonts name="fonts">
     <font>fonts\fnt_alert</font>
     <font>fonts\fnt_text</font>
+    <font>fonts\fnt_stats</font>
   </fonts>
   <objects name="objects">
     <objects name="prototype">
@@ -82,6 +83,7 @@
       </objects>
     </objects>
     <object>objects\obj_alphaControl</object>
+    <object>objects\obj_drawStats</object>
     <objects name="player">
       <object>objects\obj_playerOne</object>
       <object>objects\obj_playerTwo</object>
