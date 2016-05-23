@@ -6,28 +6,52 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="items">
+      <sprite>sprites\sprt_defUp</sprite>
+      <sprite>sprites\spr_attackUp</sprite>
+      <sprite>sprites\spr_spdUp</sprite>
+    </sprites>
     <sprites name="prototype">
       <sprite>sprites\spr_white</sprite>
       <sprite>sprites\spr_bot1</sprite>
       <sprite>sprites\spr_wall</sprite>
       <sprite>sprites\spr_player2</sprite>
       <sprite>sprites\spr_player1</sprite>
-      <sprites name="items">
-        <sprite>sprites\spr_attackUp</sprite>
-        <sprite>sprites\sprt_defUp</sprite>
-        <sprite>sprites\spr_spdUp</sprite>
-      </sprites>
       <sprite>sprites\spr_black</sprite>
       <sprite>sprites\spr_attack</sprite>
     </sprites>
+    <sprite>sprites\spr_wallAlpha</sprite>
+    <sprite>sprites\spr_wallAlphaTop</sprite>
+    <sprites name="izzy">
+      <sprite>sprites\spr_izzyFront</sprite>
+      <sprite>sprites\spr_izzyBack</sprite>
+      <sprite>sprites\spr_izzyLeft</sprite>
+      <sprite>sprites\spr_izzyRight</sprite>
+      <sprite>sprites\spr_izzyHitBox</sprite>
+      <sprites name="attackBoxes">
+        <sprite>sprites\spr_izzyFrontAttack</sprite>
+        <sprite>sprites\spr_izzyBackAttack</sprite>
+        <sprite>sprites\spr_izzyLeftAttack</sprite>
+        <sprite>sprites\spr_izzyRightAttack</sprite>
+        <sprite>sprites\spr_izzyAttackBox</sprite>
+      </sprites>
+    </sprites>
+    <sprite>sprites\spr_stairsDown</sprite>
+    <sprite>sprites\spr_stairsUp</sprite>
+    <sprite>sprites\spr_stairHitBox</sprite>
+    <sprite>sprites\spr_bot</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\background0</background>
+    <background>background\background1</background>
+    <background>background\background4</background>
+    <background>background\bg_mainMenu</background>
+    <background>background\bg_simples</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\fnt_alert</font>
     <font>fonts\fnt_text</font>
+    <font>fonts\fnt_stats</font>
   </fonts>
   <objects name="objects">
     <objects name="prototype">
@@ -58,8 +82,32 @@
         <object>objects\bossArea</object>
       </objects>
     </objects>
+    <object>objects\obj_alphaControl</object>
+    <object>objects\obj_drawStats</object>
+    <objects name="player">
+      <object>objects\obj_playerOne</object>
+      <object>objects\obj_playerTwo</object>
+      <objects name="hitboxes">
+        <object>objects\obj_hitboxP1</object>
+        <object>objects\obj_hitboxP2</object>
+      </objects>
+    </objects>
+    <objects name="bot">
+      <object>objects\obj_spdBot</object>
+    </objects>
+    <object>objects\obj_wallAlphaFrontForeground</object>
+    <object>objects\obj_wallAlphaFrontBackground</object>
+    <object>objects\obj_wallAlphaTop</object>
+    <object>objects\obj_wallAlphaEdgeForeground</object>
+    <object>objects\obj_wallAlphaEdgeBackground</object>
+    <object>objects\obj_stairsDown</object>
+    <object>objects\obj_stairsUp</object>
+    <object>objects\obj_floor1spawn</object>
+    <object>objects\obj_floor2spawn</object>
+    <object>objects\obj_floor3spawn</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_alpha</room>
     <rooms name="prototype">
       <room>rooms\room_arena</room>
       <room>rooms\room_prototype</room>

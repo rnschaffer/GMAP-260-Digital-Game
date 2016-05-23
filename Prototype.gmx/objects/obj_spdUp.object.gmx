@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="4" ename="obj_player2">
+    <event eventtype="4" ename="obj_playerTwo">
       <action>
         <libid>1</libid>
         <id>201</id>
@@ -52,7 +52,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_player1">
+    <event eventtype="4" ename="obj_playerOne">
       <action>
         <libid>1</libid>
         <id>201</id>
