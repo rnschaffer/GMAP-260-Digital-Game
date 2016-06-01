@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_victoryTheme</sound>
+    <sound>sound\snd_collectionTheme</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="items">
       <sprite>sprites\sprt_defUp</sprite>
@@ -29,31 +32,50 @@
       <sprite>sprites\spr_izzyRight</sprite>
       <sprite>sprites\spr_izzyHitBox</sprite>
       <sprites name="attackBoxes">
+        <sprite>sprites\spr_izzySpecial</sprite>
         <sprite>sprites\spr_izzyFrontAttack</sprite>
         <sprite>sprites\spr_izzyBackAttack</sprite>
         <sprite>sprites\spr_izzyLeftAttack</sprite>
         <sprite>sprites\spr_izzyRightAttack</sprite>
         <sprite>sprites\spr_izzyAttackBox</sprite>
       </sprites>
+      <sprites name="gifs">
+        <sprite>sprites\spr_izzyWalkFront</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\spr_stairsDown</sprite>
     <sprite>sprites\spr_stairsUp</sprite>
     <sprite>sprites\spr_stairHitBox</sprite>
     <sprite>sprites\spr_bot</sprite>
+    <sprite>sprites\spr_cursor</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\background4</background>
-    <background>background\bg_mainMenu</background>
     <background>background\bg_simples</background>
+    <background>background\bg_mainMenu</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_alert</font>
     <font>fonts\fnt_text</font>
     <font>fonts\fnt_stats</font>
+    <font>fonts\fnt_steamwreck</font>
+    <font>fonts\fnt_smallMenu</font>
   </fonts>
   <objects name="objects">
+    <objects name="environment">
+      <object>objects\obj_wallAlphaTop</object>
+      <object>objects\obj_wallAlphaEdgeBackground</object>
+      <object>objects\obj_wallAlphaEdgeForeground</object>
+      <object>objects\obj_wallAlphaFrontBackground</object>
+      <object>objects\obj_wallAlphaFrontForeground</object>
+      <object>objects\obj_stairsUp</object>
+      <object>objects\obj_stairsDown</object>
+    </objects>
     <objects name="prototype">
       <objects name="items">
         <object>objects\obj_attackUp</object>
@@ -82,31 +104,34 @@
         <object>objects\bossArea</object>
       </objects>
     </objects>
-    <object>objects\obj_alphaControl</object>
-    <object>objects\obj_drawStats</object>
+    <objects name="controllers">
+      <object>objects\obj_alphaControl</object>
+      <object>objects\obj_drawStats</object>
+      <object>objects\obj_playerControl</object>
+    </objects>
     <objects name="player">
       <object>objects\obj_playerOne</object>
       <object>objects\obj_playerTwo</object>
       <objects name="hitboxes">
         <object>objects\obj_hitboxP1</object>
+        <object>objects\obj_specialP1</object>
+        <object>objects\obj_specialP2</object>
         <object>objects\obj_hitboxP2</object>
       </objects>
     </objects>
     <objects name="bot">
       <object>objects\obj_spdBot</object>
+      <object>objects\obj_floor3spawn</object>
+      <object>objects\obj_floor2spawn</object>
+      <object>objects\obj_floor1spawn</object>
     </objects>
-    <object>objects\obj_wallAlphaFrontForeground</object>
-    <object>objects\obj_wallAlphaFrontBackground</object>
-    <object>objects\obj_wallAlphaTop</object>
-    <object>objects\obj_wallAlphaEdgeForeground</object>
-    <object>objects\obj_wallAlphaEdgeBackground</object>
-    <object>objects\obj_stairsDown</object>
-    <object>objects\obj_stairsUp</object>
-    <object>objects\obj_floor1spawn</object>
-    <object>objects\obj_floor2spawn</object>
-    <object>objects\obj_floor3spawn</object>
+    <objects name="main menu">
+      <object>objects\obj_menu</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_mainMenu</room>
+    <room>rooms\room_charSelect</room>
     <room>rooms\room_alpha</room>
     <rooms name="prototype">
       <room>rooms\room_arena</room>
