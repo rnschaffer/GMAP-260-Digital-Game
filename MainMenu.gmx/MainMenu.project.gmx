@@ -10,22 +10,27 @@
     <sprite>sprites\sprIzzy</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bg_mainMenu</background>
+    <background>background\background0</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_options.gml</script>
   </scripts>
   <fonts name="fonts">
-    <font>fonts\fnt_steamwreck</font>
+    <font>fonts\font0</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_menu</object>
-    <object>objects\obj_characterSelect</object>
+    <object>objects\obj_character_select</object>
+    <objects name="options menu">
+      <object>objects\obj_sound_control</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_mainMenu</room>
+    <room>rooms\main_menu</room>
     <room>rooms\character_select</room>
+    <room>rooms\options</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

@@ -25,12 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>menu[0]="Start";
-menu[1]="Options";
-menu[2]="Quit";
+            <string>option[0]="Mute";
+option[1]="2:00";
+option[2]="3:00";
+option[3]="5:00";
+option[4]="Back";
 
-space=128;
-mpos=0;
+space = 128;
+opos = 0;
 </string>
           </argument>
         </arguments>
@@ -59,17 +61,17 @@ move += max(keyboard_check_pressed(vk_down), keyboard_check_pressed(ord("S")), 0
 
 if(move != 0)
 {
-    mpos += move;
-    if(mpos &lt; 0)
-        mpos = array_length_1d(menu) - 1;
-    if(mpos &gt; array_length_1d(menu) - 1)
-        mpos = 0;
+    opos += move;
+    if(opos &lt; 0)
+        opos = array_length_1d(option) - 1;
+    if(opos &gt; array_length_1d(option) - 1)
+        opos = 0;
 }
 
 var push;
 push = max(keyboard_check_released(vk_enter), keyboard_check_released(vk_shift), keyboard_check_released(vk_space), 0);
 if(push = 1)
-    scr_menu();
+    scr_options();
 </string>
           </argument>
         </arguments>
@@ -98,12 +100,12 @@ draw_set_font(font0);
 draw_set_color(c_white);
 
 var m;
-for(m=0; m&lt;array_length_1d(menu); m+=1)
+for(m=0; m&lt;array_length_1d(option); m+=1)
 {
-    draw_text(x + space + 80, y + (m * space / 2), string(menu[m]));   
+    draw_text(x + space + 80, y + (m * space / 2), string(option[m]));   
 }
 
-draw_sprite(sprite0, 0, x + 140, y + mpos * space / 2 - 40);
+draw_sprite(sprite0, 0, x + 140, y + opos * space / 2 - 40);
 </string>
           </argument>
         </arguments>
