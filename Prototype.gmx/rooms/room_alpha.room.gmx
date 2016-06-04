@@ -605,7 +605,6 @@
     <instance objName="obj_wallAlphaFrontForeground" x="5248" y="1408" name="inst_C6BA4D75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallAlphaFrontForeground" x="5376" y="1920" name="inst_942013BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallAlphaFrontForeground" x="2944" y="1920" name="inst_654C950F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_drawStats" x="3680" y="6144" name="inst_A18F74C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_playerControl" x="3360" y="3744" name="inst_EF01048C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>

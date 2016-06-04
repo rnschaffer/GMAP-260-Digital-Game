@@ -5,10 +5,29 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\snd_victoryTheme</sound>
-    <sound>sound\snd_collectionTheme</sound>
+    <sounds name="ingame">
+      <sound>sound\snd_collectionLoop</sound>
+      <sound>sound\snd_collectionIntro</sound>
+      <sound>sound\snd_collectionEnding</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
+    <sprites name="bots">
+      <sprites name="attack">
+        <sprite>sprites\spr_attBotMoveBack</sprite>
+        <sprite>sprites\spr_attBotMoveLeft</sprite>
+        <sprite>sprites\spr_attBotMoveFront</sprite>
+        <sprite>sprites\spr_attBotMoveRight</sprite>
+        <sprite>sprites\spr_attBotAttackBack</sprite>
+        <sprite>sprites\spr_attBotAttackLeft</sprite>
+        <sprite>sprites\spr_attBotAttackRight</sprite>
+        <sprite>sprites\spr_attBotAttackFront</sprite>
+      </sprites>
+      <sprites name="defense">
+        <sprite>sprites\spr_defBotMoveLeft</sprite>
+        <sprite>sprites\spr_defBotMoveRight</sprite>
+      </sprites>
+    </sprites>
     <sprites name="items">
       <sprite>sprites\sprt_defUp</sprite>
       <sprite>sprites\spr_attackUp</sprite>
@@ -106,7 +125,6 @@
     </objects>
     <objects name="controllers">
       <object>objects\obj_alphaControl</object>
-      <object>objects\obj_drawStats</object>
       <object>objects\obj_playerControl</object>
     </objects>
     <objects name="player">
