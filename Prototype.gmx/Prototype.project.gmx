@@ -27,6 +27,12 @@
         <sprite>sprites\spr_defBotMoveLeft</sprite>
         <sprite>sprites\spr_defBotMoveRight</sprite>
       </sprites>
+      <sprites name="speed">
+        <sprite>sprites\spr_spdBotBack</sprite>
+        <sprite>sprites\spr_spdBotFront</sprite>
+        <sprite>sprites\spr_spdBotLeft</sprite>
+        <sprite>sprites\spr_spdBotRight</sprite>
+      </sprites>
     </sprites>
     <sprites name="items">
       <sprite>sprites\sprt_defUp</sprite>
