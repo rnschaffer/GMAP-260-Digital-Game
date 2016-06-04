@@ -102,10 +102,10 @@ draw_set_color(c_white);
 var m;
 for(m=0; m&lt;array_length_1d(option); m+=1)
 {
-    draw_text(x + space + 80, y + (m * space / 2), string(option[m]));   
+    draw_text(x + space + 80, y + (m * space / 2) + 80, string(option[m]));   
 }
 
-draw_sprite(sprite0, 0, x + 140, y + opos * space / 2 - 40);
+draw_sprite(sprite0, 0, x + 140, y + opos * space / 2 + 40);
 </string>
           </argument>
         </arguments>

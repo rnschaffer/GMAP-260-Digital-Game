@@ -7,6 +7,9 @@ switch (mpos)
         room_goto(options);
         break;
     case 2:
+        room_goto(credits);
+        break;
+    case 3:
         game_end();
         break;
     default:
