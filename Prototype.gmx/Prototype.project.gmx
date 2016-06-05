@@ -73,12 +73,22 @@
     <sprite>sprites\spr_stairHitBox</sprite>
     <sprite>sprites\spr_bot</sprite>
     <sprite>sprites\spr_cursor</sprite>
+    <sprites name="Floor 1">
+      <sprite>sprites\spr_floor1HorizontalWall1</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall2</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall3</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall4</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall5</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall6</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall7</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\background1</background>
+    <background>background\background3</background>
     <background>background\background4</background>
     <background>background\bg_simples</background>
     <background>background\bg_mainMenu</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -154,6 +164,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\floor1test</room>
     <room>rooms\room_mainMenu</room>
     <room>rooms\room_charSelect</room>
     <room>rooms\room_alpha</room>
