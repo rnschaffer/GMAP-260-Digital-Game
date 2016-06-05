@@ -104,6 +104,27 @@
       <sprite>sprites\spr_floor1Desk2</sprite>
     </sprites>
     <sprite>sprites\spr_title</sprite>
+    <sprites name="floor 2">
+      <sprite>sprites\spr_floor2HorizontalWall1</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall2</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall3</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall4</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall5</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall6</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall7</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall8</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall9</sprite>
+      <sprite>sprites\spr_floor2VerticalWall1</sprite>
+      <sprite>sprites\spr_floor2VerticalWall2</sprite>
+      <sprite>sprites\spr_floor2VerticalWall3</sprite>
+      <sprite>sprites\spr_floor2VerticalWall4</sprite>
+      <sprite>sprites\spr_floor2VerticalWall5</sprite>
+      <sprite>sprites\spr_floor2VerticalWall6</sprite>
+      <sprite>sprites\spr_floor2VerticalWall7</sprite>
+      <sprite>sprites\spr_floor2Bookshelf1</sprite>
+      <sprite>sprites\spr_floor2Bookshelf2</sprite>
+      <sprite>sprites\spr_floor2Crates</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background4</background>
@@ -112,6 +133,7 @@
     <background>background\background1</background>
     <background>background\background3</background>
     <background>background\title_background</background>
+    <background>background\bg_floor2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -156,6 +178,27 @@
         <object>objects\obj_floor1VerticalWall8</object>
         <object>objects\obj_floor1Desk1</object>
         <object>objects\obj_floor1Desk2</object>
+      </objects>
+      <objects name="floor 2">
+        <object>objects\obj_floor2HorizontalWall1</object>
+        <object>objects\obj_floor2HorizontalWall2</object>
+        <object>objects\obj_floor2HorizontalWall3</object>
+        <object>objects\obj_floor2HorizontalWall4</object>
+        <object>objects\obj_floor2HorizontalWall5</object>
+        <object>objects\obj_floor2HorizontalWall6</object>
+        <object>objects\obj_floor2HorizontalWall7</object>
+        <object>objects\obj_floor2HorizontalWall8</object>
+        <object>objects\obj_floor2HorizontalWall9</object>
+        <object>objects\obj_floor2VerticalWall1</object>
+        <object>objects\obj_floor2VerticalWall2</object>
+        <object>objects\obj_floor2VerticalWall3</object>
+        <object>objects\obj_floor2VerticalWall4</object>
+        <object>objects\obj_floor2VerticalWall5</object>
+        <object>objects\obj_floor2VerticalWall6</object>
+        <object>objects\obj_floor2VerticalWall7</object>
+        <object>objects\obj_floor2Bookshelf1</object>
+        <object>objects\obj_floor2Bookshelf2</object>
+        <object>objects\obj_floor2Crates</object>
       </objects>
     </objects>
     <objects name="prototype">
