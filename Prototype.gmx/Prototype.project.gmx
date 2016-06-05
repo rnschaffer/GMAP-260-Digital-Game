@@ -102,6 +102,7 @@
       <sprite>sprites\spr_floor1Desk1</sprite>
       <sprite>sprites\spr_floor1Desk2</sprite>
     </sprites>
+    <sprite>sprites\spr_title</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background4</background>
@@ -109,10 +110,12 @@
     <background>background\bg_mainMenu</background>
     <background>background\background1</background>
     <background>background\background3</background>
+    <background>background\title_background</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_options.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_alert</font>
@@ -204,9 +207,13 @@
     </objects>
     <objects name="main menu">
       <object>objects\obj_menu</object>
+      <object>objects\obj_title</object>
+      <object>objects\obj_credits</object>
+      <object>objects\obj_sound_control</object>
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\main_menu</room>
     <room>rooms\floor1test</room>
     <room>rooms\room_mainMenu</room>
     <room>rooms\room_charSelect</room>
@@ -216,6 +223,8 @@
       <room>rooms\room_prototype</room>
       <room>rooms\room_sketch</room>
     </rooms>
+    <room>rooms\options</room>
+    <room>rooms\credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
