@@ -73,7 +73,7 @@
     <sprite>sprites\spr_stairHitBox</sprite>
     <sprite>sprites\spr_bot</sprite>
     <sprite>sprites\spr_cursor</sprite>
-    <sprites name="Floor 1">
+    <sprites name="floor 1">
       <sprite>sprites\spr_floor1HorizontalWall1</sprite>
       <sprite>sprites\spr_floor1HorizontalWall2</sprite>
       <sprite>sprites\spr_floor1HorizontalWall3</sprite>
@@ -81,14 +81,27 @@
       <sprite>sprites\spr_floor1HorizontalWall5</sprite>
       <sprite>sprites\spr_floor1HorizontalWall6</sprite>
       <sprite>sprites\spr_floor1HorizontalWall7</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall8</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall9</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall10</sprite>
+      <sprite>sprites\spr_floor1VerticalWall1</sprite>
+      <sprite>sprites\spr_floor1VerticalWall2</sprite>
+      <sprite>sprites\spr_floor1VerticalWall3</sprite>
+      <sprite>sprites\spr_floor1VerticalWall4</sprite>
+      <sprite>sprites\spr_floor1VerticalWall5</sprite>
+      <sprite>sprites\spr_floor1VerticalWall6</sprite>
+      <sprite>sprites\spr_floor1VerticalWall7</sprite>
+      <sprite>sprites\spr_floor1VerticalWall8</sprite>
+      <sprite>sprites\spr_floor1Desk1</sprite>
+      <sprite>sprites\spr_floor1Desk2</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\background3</background>
     <background>background\background4</background>
     <background>background\bg_simples</background>
     <background>background\bg_mainMenu</background>
     <background>background\background1</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -110,6 +123,28 @@
       <object>objects\obj_wallAlphaFrontForeground</object>
       <object>objects\obj_stairsUp</object>
       <object>objects\obj_stairsDown</object>
+      <objects name="floor 1">
+        <object>objects\obj_floor1HorizontalWall1</object>
+        <object>objects\obj_floor1HorizontalWall2</object>
+        <object>objects\obj_floor1HorizontalWall3</object>
+        <object>objects\obj_floor1HorizontalWall4</object>
+        <object>objects\obj_floor1HorizontalWall5</object>
+        <object>objects\obj_floor1HorizontalWall6</object>
+        <object>objects\obj_floor1HorizontalWall7</object>
+        <object>objects\obj_floor1HorizontalWall8</object>
+        <object>objects\obj_floor1HorizontalWall9</object>
+        <object>objects\obj_floor1HorizontalWall10</object>
+        <object>objects\obj_floor1VerticalWall1</object>
+        <object>objects\obj_floor1VerticalWall2</object>
+        <object>objects\obj_floor1VerticalWall3</object>
+        <object>objects\obj_floor1VerticalWall4</object>
+        <object>objects\obj_floor1VerticalWall5</object>
+        <object>objects\obj_floor1VerticalWall6</object>
+        <object>objects\obj_floor1VerticalWall7</object>
+        <object>objects\obj_floor1VerticalWall8</object>
+        <object>objects\obj_floor1Desk1</object>
+        <object>objects\obj_floor1Desk2</object>
+      </objects>
     </objects>
     <objects name="prototype">
       <objects name="items">
@@ -164,7 +199,6 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\floor1test</room>
     <room>rooms\room_mainMenu</room>
     <room>rooms\room_charSelect</room>
     <room>rooms\room_alpha</room>
@@ -172,6 +206,7 @@
       <room>rooms\room_arena</room>
       <room>rooms\room_prototype</room>
       <room>rooms\room_sketch</room>
+      <room>rooms\floor1test</room>
     </rooms>
   </rooms>
   <help>
