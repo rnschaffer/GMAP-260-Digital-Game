@@ -80,7 +80,7 @@ engaged = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>move_speed = 3;
+            <string>move_speed = 8;
 p1x = obj_playerOne.x;
 p1y = obj_playerOne.y;
 p2x = obj_playerTwo.x;

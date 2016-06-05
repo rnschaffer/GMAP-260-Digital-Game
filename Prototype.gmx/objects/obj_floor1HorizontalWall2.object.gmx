@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>&lt;undefined&gt;</maskName>
+  <maskName>spr_floor1HorizontalWall2HB</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -y + 200;
+            <string>depth = -y - 230;
 </string>
           </argument>
         </arguments>

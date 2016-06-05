@@ -27,6 +27,8 @@
       <sprites name="defense">
         <sprite>sprites\spr_defBotMoveLeft</sprite>
         <sprite>sprites\spr_defBotMoveRight</sprite>
+        <sprite>sprites\spr_defBotMoveBack</sprite>
+        <sprite>sprites\spr_defBotMoveFront</sprite>
       </sprites>
       <sprites name="speed">
         <sprite>sprites\spr_spdBotBack</sprite>
@@ -84,24 +86,41 @@
     <sprites name="floor 1">
       <sprite>sprites\spr_floor1HorizontalWall1</sprite>
       <sprite>sprites\spr_floor1HorizontalWall2</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall2HB</sprite>
       <sprite>sprites\spr_floor1HorizontalWall3</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall3HB</sprite>
       <sprite>sprites\spr_floor1HorizontalWall4</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall4HB</sprite>
       <sprite>sprites\spr_floor1HorizontalWall5</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall5HB</sprite>
       <sprite>sprites\spr_floor1HorizontalWall6</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall6HB</sprite>
       <sprite>sprites\spr_floor1HorizontalWall7</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall7HB</sprite>
       <sprite>sprites\spr_floor1HorizontalWall8</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall8HB</sprite>
       <sprite>sprites\spr_floor1HorizontalWall9</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall9HB</sprite>
       <sprite>sprites\spr_floor1HorizontalWall10</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall10HB</sprite>
       <sprite>sprites\spr_floor1VerticalWall1</sprite>
+      <sprite>sprites\spr_floor1VerticalWall1HB</sprite>
       <sprite>sprites\spr_floor1VerticalWall2</sprite>
       <sprite>sprites\spr_floor1VerticalWall3</sprite>
+      <sprite>sprites\spr_floor1VerticalWall3HB</sprite>
       <sprite>sprites\spr_floor1VerticalWall4</sprite>
       <sprite>sprites\spr_floor1VerticalWall5</sprite>
+      <sprite>sprites\spr_floor1VerticalWall5HB</sprite>
       <sprite>sprites\spr_floor1VerticalWall6</sprite>
+      <sprite>sprites\spr_floor1VerticalWall6HB</sprite>
       <sprite>sprites\spr_floor1VerticalWall7</sprite>
+      <sprite>sprites\spr_floor1VerticalWall7HB</sprite>
       <sprite>sprites\spr_floor1VerticalWall8</sprite>
+      <sprite>sprites\spr_floor1VerticalWall8HB</sprite>
       <sprite>sprites\spr_floor1Desk1</sprite>
+      <sprite>sprites\spr_floor1Desk1HB</sprite>
       <sprite>sprites\spr_floor1Desk2</sprite>
+      <sprite>sprites\spr_floor1Desk2HB</sprite>
     </sprites>
     <sprite>sprites\spr_title</sprite>
   </sprites>
@@ -129,6 +148,7 @@
   <objects name="objects">
     <objects name="environment">
       <object>objects\obj_wallAlphaTop</object>
+      <object>objects\obj_invisibleWall</object>
       <object>objects\obj_wallAlphaEdgeBackground</object>
       <object>objects\obj_wallAlphaEdgeForeground</object>
       <object>objects\obj_wallAlphaFrontBackground</object>
@@ -205,9 +225,10 @@
     <objects name="bot">
       <object>objects\obj_spdBot</object>
       <object>objects\obj_attBot</object>
-      <object>objects\obj_floor3spawn</object>
-      <object>objects\obj_floor2spawn</object>
-      <object>objects\obj_floor1spawn</object>
+      <object>objects\obj_defBot</object>
+      <object>objects\obj_attackSpawn</object>
+      <object>objects\obj_defenseSpawn</object>
+      <object>objects\obj_speedSpawn</object>
     </objects>
     <objects name="main menu">
       <object>objects\obj_menu</object>
