@@ -118,12 +118,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//start the music and set the alarm for the looping portion
+            <string>
+//if menu music is still playing, stop it.
+if (audio_is_playing(snd_titleScreen))
+{
+    audio_stop_sound(snd_titleScreen);
+}
 
-var len;
-len = audio_sound_length(snd_collectionIntro);
-audio_play_sound(snd_collectionIntro, 1, false);
-alarm[1] = room_speed * len;
+//start the music and set the alarm for the looping portion
+
+if (global.soundOn)
+{
+    var len;
+    len = audio_sound_length(snd_collectionIntro);
+    audio_play_sound(snd_collectionIntro, 1, false);
+    alarm[1] = room_speed * len;
+}
 </string>
           </argument>
         </arguments>
@@ -397,96 +407,6 @@ audio_play_sound(snd_collectionLoop,1,true);
     audio_play_sound(snd_collectionEnding,1,false);
 }
 </string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="64">
-      <action>
-        <libid>1</libid>
-        <id>511</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_draw_rectangle</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>680</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>686</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>768</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>526</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_font</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>12</kind>
-            <font>fnt_text</font>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>1</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>613</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_draw_variable</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>seconds</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>683</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>700</string>
           </argument>
         </arguments>
       </action>

@@ -5,11 +5,12 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sounds name="ingame">
+    <sounds name="ingame music">
       <sound>sound\snd_collectionLoop</sound>
       <sound>sound\snd_collectionIntro</sound>
       <sound>sound\snd_collectionEnding</sound>
     </sounds>
+    <sound>sound\snd_titleScreen</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="bots">
@@ -123,6 +124,7 @@
     <font>fonts\fnt_stats</font>
     <font>fonts\fnt_steamwreck</font>
     <font>fonts\fnt_smallMenu</font>
+    <font>fonts\fnt_numbers</font>
   </fonts>
   <objects name="objects">
     <objects name="environment">
@@ -185,6 +187,7 @@
       </objects>
     </objects>
     <objects name="controllers">
+      <object>objects\obj_guiController</object>
       <object>objects\obj_alphaControl</object>
       <object>objects\obj_playerControl</object>
     </objects>
