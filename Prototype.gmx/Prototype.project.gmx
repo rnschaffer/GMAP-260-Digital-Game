@@ -66,6 +66,13 @@
       </sprites>
       <sprites name="gifs">
         <sprite>sprites\spr_izzyWalkFront</sprite>
+        <sprite>sprites\spr_izzyWalkBack</sprite>
+        <sprite>sprites\spr_izzyWalkLeft</sprite>
+        <sprite>sprites\spr_izzyWalkRight</sprite>
+        <sprite>sprites\spr_izzyIdleFront</sprite>
+        <sprite>sprites\spr_izzyIdleBack</sprite>
+        <sprite>sprites\spr_izzyIdleLeft</sprite>
+        <sprite>sprites\spr_izzyIdleRight</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\spr_stairsDown</sprite>
@@ -145,6 +152,7 @@
     </objects>
     <objects name="bot">
       <object>objects\obj_spdBot</object>
+      <object>objects\obj_attBot</object>
       <object>objects\obj_floor3spawn</object>
       <object>objects\obj_floor2spawn</object>
       <object>objects\obj_floor1spawn</object>
