@@ -199,6 +199,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\floor1test</room>
     <room>rooms\room_mainMenu</room>
     <room>rooms\room_charSelect</room>
     <room>rooms\room_alpha</room>
@@ -206,7 +207,6 @@
       <room>rooms\room_arena</room>
       <room>rooms\room_prototype</room>
       <room>rooms\room_sketch</room>
-      <room>rooms\floor1test</room>
     </rooms>
   </rooms>
   <help>
