@@ -144,7 +144,38 @@
       <sprite>sprites\spr_floor2Bookshelf2</sprite>
       <sprite>sprites\spr_floor2Crates</sprite>
     </sprites>
+<<<<<<< HEAD
     <sprite>sprites\spr_arenawall</sprite>
+=======
+    <sprites name="floor 3">
+      <sprite>sprites\spr_floor3HorizontalWall1</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall2</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall3</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall4</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall5</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall6</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall7</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall8</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall9</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall10</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall11</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall12</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall13</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall14</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall15</sprite>
+      <sprite>sprites\spr_floor3VerticalWall1</sprite>
+      <sprite>sprites\spr_floor3VerticalWall2</sprite>
+      <sprite>sprites\spr_floor3VerticalWall3</sprite>
+      <sprite>sprites\spr_floor3VerticalWall4</sprite>
+      <sprite>sprites\spr_floor3VerticalWall5</sprite>
+      <sprite>sprites\spr_floor3VerticalWall6</sprite>
+      <sprite>sprites\spr_floor3VerticalWall7</sprite>
+      <sprite>sprites\spr_floor3VerticalWall8</sprite>
+      <sprite>sprites\spr_floor3VerticalWall9</sprite>
+      <sprite>sprites\spr_floor3TeslaCoilLeft</sprite>
+      <sprite>sprites\spr_floor3TeslaCoilRight</sprite>
+    </sprites>
+>>>>>>> 77b0c4e351084d08071b9302bcf162e7fa1356c7
   </sprites>
   <backgrounds name="background">
     <background>background\background4</background>
@@ -154,6 +185,7 @@
     <background>background\background3</background>
     <background>background\title_background</background>
     <background>background\bg_floor2</background>
+    <background>background\bg_floor3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -220,6 +252,34 @@
         <object>objects\obj_floor2Bookshelf1</object>
         <object>objects\obj_floor2Bookshelf2</object>
         <object>objects\obj_floor2Crates</object>
+      </objects>
+      <objects name="floor 3">
+        <object>objects\obj_floor3HorizontalWall1</object>
+        <object>objects\obj_floor3HorizontalWall2</object>
+        <object>objects\obj_floor3HorizontalWall3</object>
+        <object>objects\obj_floor3HorizontalWall4</object>
+        <object>objects\obj_floor3HorizontalWall5</object>
+        <object>objects\obj_floor3HorizontalWall6</object>
+        <object>objects\obj_floor3HorizontalWall7</object>
+        <object>objects\obj_floor3HorizontalWall8</object>
+        <object>objects\obj_floor3HorizontalWall9</object>
+        <object>objects\obj_floor3HorizontalWall10</object>
+        <object>objects\obj_floor3HorizontalWall11</object>
+        <object>objects\obj_floor3HorizontalWall12</object>
+        <object>objects\obj_floor3HorizontalWall13</object>
+        <object>objects\obj_floor3HorizontalWall14</object>
+        <object>objects\obj_floor3HorizontalWall15</object>
+        <object>objects\obj_floor3VerticalWall1</object>
+        <object>objects\obj_floor3VerticalWall2</object>
+        <object>objects\obj_floor3VerticalWall3</object>
+        <object>objects\obj_floor3VerticalWall4</object>
+        <object>objects\obj_floor3VerticalWall5</object>
+        <object>objects\obj_floor3VerticalWall6</object>
+        <object>objects\obj_floor3VerticalWall7</object>
+        <object>objects\obj_floor3VerticalWall8</object>
+        <object>objects\obj_floor3VerticalWall9</object>
+        <object>objects\obj_floor3TeslaCoilLeft</object>
+        <object>objects\obj_floor3TeslaCoilRight</object>
       </objects>
     </objects>
     <objects name="prototype">
