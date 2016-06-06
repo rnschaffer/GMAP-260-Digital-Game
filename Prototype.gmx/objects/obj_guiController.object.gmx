@@ -73,6 +73,23 @@ draw_rectangle(width,20,width-(obj_playerTwo.mydef*40),40,false);
 draw_set_color(c_green);
 draw_rectangle(0,40,obj_playerOne.myspeed*40,60,false);
 draw_rectangle(width,40,width-(obj_playerTwo.myspeed*40),60,false);
+
+//draw win text
+if(global.complete == true)
+{
+    if(obj_playerOne.myhealth &lt;= 0) //player 1 lost
+    {
+        draw_set_color(c_white);
+        draw_set_font(fnt_numbers);
+        draw_text(width/2,height/2,"PLAYER 2 WINS");
+    }
+    else //player 2 lost
+    {
+        draw_set_color(c_white);
+        draw_set_font(fnt_numbers);
+        draw_text(width/2,height/2,"PLAYER 1 WINS");
+    }
+}
 </string>
           </argument>
         </arguments>
