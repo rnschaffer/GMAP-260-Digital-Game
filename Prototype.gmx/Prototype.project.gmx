@@ -11,11 +11,13 @@
       <sound>sound\snd_collectionEnding</sound>
     </sounds>
     <sound>sound\snd_titleScreen</sound>
+    <sound>sound\snd_victoryTheme</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="bots">
       <sprites name="attack">
         <sprite>sprites\spr_attBotMoveBack</sprite>
+        <sprite>sprites\spr_attBotHB</sprite>
         <sprite>sprites\spr_attBotMoveLeft</sprite>
         <sprite>sprites\spr_attBotMoveFront</sprite>
         <sprite>sprites\spr_attBotMoveRight</sprite>
@@ -61,6 +63,7 @@
       <sprite>sprites\spr_izzyHitBox</sprite>
       <sprites name="attackBoxes">
         <sprite>sprites\spr_izzySpecial</sprite>
+        <sprite>sprites\spr_izzySpecialAttack</sprite>
         <sprite>sprites\spr_izzyFrontAttack</sprite>
         <sprite>sprites\spr_izzyBackAttack</sprite>
         <sprite>sprites\spr_izzyLeftAttack</sprite>
@@ -68,6 +71,10 @@
         <sprite>sprites\spr_izzyAttackBox</sprite>
       </sprites>
       <sprites name="gifs">
+        <sprite>sprites\spr_izzyAttackFront</sprite>
+        <sprite>sprites\spr_izzyAttackLeft</sprite>
+        <sprite>sprites\spr_izzyAttackBack</sprite>
+        <sprite>sprites\spr_izzyAttackRight</sprite>
         <sprite>sprites\spr_izzyWalkFront</sprite>
         <sprite>sprites\spr_izzyWalkBack</sprite>
         <sprite>sprites\spr_izzyWalkLeft</sprite>
@@ -319,6 +326,7 @@
       <objects name="hitboxes">
         <object>objects\obj_hitboxP1</object>
         <object>objects\obj_specialP1</object>
+        <object>objects\obj_specialAttackSprite</object>
         <object>objects\obj_specialP2</object>
         <object>objects\obj_hitboxP2</object>
       </objects>

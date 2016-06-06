@@ -50,6 +50,29 @@ draw_set_font(fnt_numbers);
 draw_set_halign(fa_center);
 draw_text(width/2, height - 150, obj_alphaControl.seconds);
 }
+
+//draw player 1 and player 2 health bars
+//player 1
+draw_set_color(c_red);
+draw_rectangle(0,height-64,(obj_playerOne.myhealth/100)*500,height,false);
+//player 2
+draw_rectangle(width,height-64,width-((obj_playerTwo.myhealth/100)*500),height,false);
+
+//draw their stats
+//attack
+draw_set_color(c_red);
+draw_rectangle(0,0,obj_playerOne.myatt*40,20,false);
+draw_rectangle(width,0,width-(obj_playerTwo.myatt*40),20,false);
+
+//defense
+draw_set_color(c_blue);
+draw_rectangle(0,20,obj_playerOne.mydef*40,40,false);
+draw_rectangle(width,20,width-(obj_playerTwo.mydef*40),40,false);
+
+//speed
+draw_set_color(c_green);
+draw_rectangle(0,40,obj_playerOne.myspeed*40,60,false);
+draw_rectangle(width,40,width-(obj_playerTwo.myspeed*40),60,false);
 </string>
           </argument>
         </arguments>

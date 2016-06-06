@@ -525,7 +525,7 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>damage = ((myatt / obj_playerTwo.mydef) * 3) + 10;
+            <string>damage = ((myatt / obj_playerTwo.mydef) * 3) + 6;
 obj_playerTwo.myhealth = ceil(obj_playerTwo.myhealth - damage);
 </string>
           </argument>
@@ -653,7 +653,7 @@ obj_playerTwo.myhealth = ceil(obj_playerTwo.myhealth - damage);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>damage = ((myatt / obj_playerOne.mydef) * 3) + 10;
+            <string>damage = ((myatt / obj_playerOne.mydef) * 3) + 6;
 obj_playerOne.myhealth = ceil(obj_playerOne.myhealth - damage);
 </string>
           </argument>

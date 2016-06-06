@@ -29,7 +29,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>10</string>
+            <string>global.gameTime * 60</string>
           </argument>
         </arguments>
       </action>
@@ -114,6 +114,28 @@ if (global.soundOn == true)
     alarm[1] = room_speed * len;
 }
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>224</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_another_room</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>main_menu</room>
           </argument>
         </arguments>
       </action>
@@ -323,10 +345,10 @@ obj_playerOne.y = 896;
 obj_playerTwo.x = 6400;
 obj_playerTwo.y = 896;
 
-//change the view to view 1
-view_visible[0] = false;
-view_visible[1] = true;
-view_visible[3] = false;
+
+//replenish their health
+obj_playerOne.myhealth = 100;
+obj_playerTwo.myHealth = 100;
 </string>
           </argument>
         </arguments>
@@ -376,17 +398,23 @@ view_visible[3] = false;
     <event eventtype="9" enumb="36">
       <action>
         <libid>1</libid>
-        <id>331</id>
+        <id>224</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_restart_game</functionname>
+        <functionname>action_another_room</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>11</kind>
+            <room>main_menu</room>
+          </argument>
+        </arguments>
       </action>
     </event>
     <event eventtype="9" enumb="27">

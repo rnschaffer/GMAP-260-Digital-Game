@@ -2,12 +2,14 @@ switch (opos)
 {
     case 0:
         if(global.soundOn == false)
+        {
             global.soundOn = true;
+        }
         else
-            {
+        {
                 global.soundOn = false;
                 audio_stop_all();
-            }
+        }
         break;
     case 1:
         global.gameTime = 2.00;

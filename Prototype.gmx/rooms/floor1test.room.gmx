@@ -43,7 +43,7 @@
   <views>
     <view visible="-1" objName="obj_playerOne" xview="0" yview="0" wview="683" hview="768" xport="0" yport="0" wport="683" hport="768" hborder="683" vborder="768" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="5248" yview="384" wview="1366" hview="768" xport="0" yport="0" wport="1366" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="" xview="5248" yview="384" wview="1366" hview="768" xport="0" yport="0" wport="1366" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="5248" yview="384" wview="1366" hview="768" xport="0" yport="0" wport="1366" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="-1" objName="obj_playerTwo" xview="683" yview="0" wview="683" hview="768" xport="683" yport="0" wport="683" hport="768" hborder="683" vborder="768" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
