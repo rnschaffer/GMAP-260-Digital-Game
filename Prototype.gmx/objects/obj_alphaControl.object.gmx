@@ -29,7 +29,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>120</string>
+            <string>10</string>
           </argument>
         </arguments>
       </action>
@@ -302,49 +302,32 @@ audio_play_sound(snd_collectionLoop,1,true);
       </action>
       <action>
         <libid>1</libid>
-        <id>109</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move_to</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
-        <whoName>obj_playerOne</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>3328</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1792</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>109</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move_to</functionname>
-        <codestring></codestring>
-        <whoName>obj_playerTwo</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>4492</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1792</string>
+            <kind>1</kind>
+            <string>//move players 1 and 2 to the arena
+obj_playerOne.x = 5376;
+obj_playerOne.y = 896;
+
+obj_playerTwo.x = 6400;
+obj_playerTwo.y = 896;
+
+//change the view to view 1
+view_visible[0] = false;
+view_visible[1] = true;
+view_visible[3] = false;
+</string>
           </argument>
         </arguments>
       </action>

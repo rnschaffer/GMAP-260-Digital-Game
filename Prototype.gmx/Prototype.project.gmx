@@ -144,6 +144,7 @@
       <sprite>sprites\spr_floor2Bookshelf2</sprite>
       <sprite>sprites\spr_floor2Crates</sprite>
     </sprites>
+    <sprite>sprites\spr_arenawall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background4</background>
@@ -279,6 +280,7 @@
       <object>objects\obj_credits</object>
       <object>objects\obj_sound_control</object>
     </objects>
+    <object>objects\obj_arenawall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\main_menu</room>

@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>//Draw the GUI
-
+if (global.ending = 0)
+{
 //window variables
 width = window_get_width();
 height = window_get_height();
@@ -48,7 +49,7 @@ draw_set_color(c_black);
 draw_set_font(fnt_numbers);
 draw_set_halign(fa_center);
 draw_text(width/2, height - 150, obj_alphaControl.seconds);
-
+}
 </string>
           </argument>
         </arguments>
