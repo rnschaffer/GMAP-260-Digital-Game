@@ -144,9 +144,7 @@
       <sprite>sprites\spr_floor2Bookshelf2</sprite>
       <sprite>sprites\spr_floor2Crates</sprite>
     </sprites>
-<<<<<<< HEAD
     <sprite>sprites\spr_arenawall</sprite>
-=======
     <sprites name="floor 3">
       <sprite>sprites\spr_floor3HorizontalWall1</sprite>
       <sprite>sprites\spr_floor3HorizontalWall2</sprite>
@@ -175,7 +173,6 @@
       <sprite>sprites\spr_floor3TeslaCoilLeft</sprite>
       <sprite>sprites\spr_floor3TeslaCoilRight</sprite>
     </sprites>
->>>>>>> 77b0c4e351084d08071b9302bcf162e7fa1356c7
   </sprites>
   <backgrounds name="background">
     <background>background\background4</background>
