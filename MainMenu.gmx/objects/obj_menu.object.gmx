@@ -27,7 +27,8 @@
             <kind>1</kind>
             <string>menu[0]="Start";
 menu[1]="Options";
-menu[2]="Quit";
+menu[2]="Credits";
+menu[3]="Quit";
 
 space=128;
 mpos=0;
@@ -95,7 +96,7 @@ if(push = 1)
             <string>draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 draw_set_font(font0);
-draw_set_color(c_black);
+draw_set_color(c_white);
 
 var m;
 for(m=0; m&lt;array_length_1d(menu); m+=1)

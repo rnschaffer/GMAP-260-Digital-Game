@@ -4,8 +4,41 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sounds name="ingame music">
+      <sound>sound\snd_collectionLoop</sound>
+      <sound>sound\snd_collectionIntro</sound>
+      <sound>sound\snd_collectionEnding</sound>
+    </sounds>
+    <sound>sound\snd_titleScreen</sound>
+    <sound>sound\snd_victoryTheme</sound>
+  </sounds>
   <sprites name="sprites">
+    <sprites name="bots">
+      <sprites name="attack">
+        <sprite>sprites\spr_attBotMoveBack</sprite>
+        <sprite>sprites\spr_attBotHB</sprite>
+        <sprite>sprites\spr_attBotMoveLeft</sprite>
+        <sprite>sprites\spr_attBotMoveFront</sprite>
+        <sprite>sprites\spr_attBotMoveRight</sprite>
+        <sprite>sprites\spr_attBotAttackBack</sprite>
+        <sprite>sprites\spr_attBotAttackLeft</sprite>
+        <sprite>sprites\spr_attBotAttackRight</sprite>
+        <sprite>sprites\spr_attBotAttackFront</sprite>
+      </sprites>
+      <sprites name="defense">
+        <sprite>sprites\spr_defBotMoveLeft</sprite>
+        <sprite>sprites\spr_defBotMoveRight</sprite>
+        <sprite>sprites\spr_defBotMoveBack</sprite>
+        <sprite>sprites\spr_defBotMoveFront</sprite>
+      </sprites>
+      <sprites name="speed">
+        <sprite>sprites\spr_spdBotBack</sprite>
+        <sprite>sprites\spr_spdBotFront</sprite>
+        <sprite>sprites\spr_spdBotLeft</sprite>
+        <sprite>sprites\spr_spdBotRight</sprite>
+      </sprites>
+    </sprites>
     <sprites name="items">
       <sprite>sprites\sprt_defUp</sprite>
       <sprite>sprites\spr_attackUp</sprite>
@@ -29,31 +62,244 @@
       <sprite>sprites\spr_izzyRight</sprite>
       <sprite>sprites\spr_izzyHitBox</sprite>
       <sprites name="attackBoxes">
+        <sprite>sprites\spr_izzySpecial</sprite>
+        <sprite>sprites\spr_izzySpecialAttack</sprite>
         <sprite>sprites\spr_izzyFrontAttack</sprite>
         <sprite>sprites\spr_izzyBackAttack</sprite>
         <sprite>sprites\spr_izzyLeftAttack</sprite>
         <sprite>sprites\spr_izzyRightAttack</sprite>
         <sprite>sprites\spr_izzyAttackBox</sprite>
       </sprites>
+      <sprites name="gifs">
+        <sprite>sprites\spr_izzyAttackFront</sprite>
+        <sprite>sprites\spr_izzyAttackLeft</sprite>
+        <sprite>sprites\spr_izzyAttackBack</sprite>
+        <sprite>sprites\spr_izzyAttackRight</sprite>
+        <sprite>sprites\spr_izzyWalkFront</sprite>
+        <sprite>sprites\spr_izzyWalkBack</sprite>
+        <sprite>sprites\spr_izzyWalkLeft</sprite>
+        <sprite>sprites\spr_izzyWalkRight</sprite>
+        <sprite>sprites\spr_izzyIdleFront</sprite>
+        <sprite>sprites\spr_izzyIdleBack</sprite>
+        <sprite>sprites\spr_izzyIdleLeft</sprite>
+        <sprite>sprites\spr_izzyIdleRight</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\spr_stairsDown</sprite>
     <sprite>sprites\spr_stairsUp</sprite>
     <sprite>sprites\spr_stairHitBox</sprite>
     <sprite>sprites\spr_bot</sprite>
+    <sprite>sprites\spr_cursor</sprite>
+    <sprites name="floor 1">
+      <sprite>sprites\spr_floor1HorizontalWall1</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall2</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall2HB</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall3</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall3HB</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall4</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall4HB</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall5</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall5HB</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall6</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall6HB</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall7</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall7HB</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall8</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall8HB</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall9</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall9HB</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall10</sprite>
+      <sprite>sprites\spr_floor1HorizontalWall10HB</sprite>
+      <sprite>sprites\spr_floor1VerticalWall1</sprite>
+      <sprite>sprites\spr_floor1VerticalWall1HB</sprite>
+      <sprite>sprites\spr_floor1VerticalWall2</sprite>
+      <sprite>sprites\spr_floor1VerticalWall3</sprite>
+      <sprite>sprites\spr_floor1VerticalWall3HB</sprite>
+      <sprite>sprites\spr_floor1VerticalWall4</sprite>
+      <sprite>sprites\spr_floor1VerticalWall5</sprite>
+      <sprite>sprites\spr_floor1VerticalWall5HB</sprite>
+      <sprite>sprites\spr_floor1VerticalWall6</sprite>
+      <sprite>sprites\spr_floor1VerticalWall6HB</sprite>
+      <sprite>sprites\spr_floor1VerticalWall7</sprite>
+      <sprite>sprites\spr_floor1VerticalWall7HB</sprite>
+      <sprite>sprites\spr_floor1VerticalWall8</sprite>
+      <sprite>sprites\spr_floor1VerticalWall8HB</sprite>
+      <sprite>sprites\spr_floor1Desk1</sprite>
+      <sprite>sprites\spr_floor1Desk1HB</sprite>
+      <sprite>sprites\spr_floor1Desk2</sprite>
+      <sprite>sprites\spr_floor1Desk2HB</sprite>
+    </sprites>
+    <sprite>sprites\spr_title</sprite>
+    <sprites name="floor 2">
+      <sprite>sprites\spr_floor2HorizontalWall1</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall2</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall3</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall4</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall5</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall6</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall7</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall8</sprite>
+      <sprite>sprites\spr_floor2HorizontalWall9</sprite>
+      <sprite>sprites\spr_floor2VerticalWall1</sprite>
+      <sprite>sprites\spr_floor2VerticalWall2</sprite>
+      <sprite>sprites\spr_floor2VerticalWall3</sprite>
+      <sprite>sprites\spr_floor2VerticalWall4</sprite>
+      <sprite>sprites\spr_floor2VerticalWall5</sprite>
+      <sprite>sprites\spr_floor2VerticalWall6</sprite>
+      <sprite>sprites\spr_floor2VerticalWall7</sprite>
+      <sprite>sprites\spr_floor2Bookshelf1</sprite>
+      <sprite>sprites\spr_floor2Bookshelf2</sprite>
+      <sprite>sprites\spr_floor2Crates</sprite>
+    </sprites>
+    <sprite>sprites\spr_arenawall</sprite>
+    <sprites name="floor 3">
+      <sprite>sprites\spr_floor3HorizontalWall1</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall2</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall3</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall4</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall5</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall6</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall7</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall8</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall9</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall10</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall11</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall12</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall13</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall14</sprite>
+      <sprite>sprites\spr_floor3HorizontalWall15</sprite>
+      <sprite>sprites\spr_floor3VerticalWall1</sprite>
+      <sprite>sprites\spr_floor3VerticalWall2</sprite>
+      <sprite>sprites\spr_floor3VerticalWall3</sprite>
+      <sprite>sprites\spr_floor3VerticalWall4</sprite>
+      <sprite>sprites\spr_floor3VerticalWall5</sprite>
+      <sprite>sprites\spr_floor3VerticalWall6</sprite>
+      <sprite>sprites\spr_floor3VerticalWall7</sprite>
+      <sprite>sprites\spr_floor3VerticalWall8</sprite>
+      <sprite>sprites\spr_floor3VerticalWall9</sprite>
+      <sprite>sprites\spr_floor3TeslaCoilLeft</sprite>
+      <sprite>sprites\spr_floor3TeslaCoilRight</sprite>
+    </sprites>
+    <sprites name="blizzy">
+      <sprite>sprites\spr_blizzyAttackFront</sprite>
+      <sprite>sprites\spr_blizzyAttackBack</sprite>
+      <sprite>sprites\spr_blizzyAttackLeft</sprite>
+      <sprite>sprites\spr_blizzyAttackRight</sprite>
+      <sprite>sprites\spr_blizzyWalkFront</sprite>
+      <sprite>sprites\spr_blizzyWalkBack</sprite>
+      <sprite>sprites\spr_blizzyWalkLeft</sprite>
+      <sprite>sprites\spr_blizzyWalkRight</sprite>
+      <sprite>sprites\spr_blizzyIdleFront</sprite>
+      <sprite>sprites\spr_blizzyIdleBack</sprite>
+      <sprite>sprites\spr_blizzyIdleLeft</sprite>
+      <sprite>sprites\spr_blizzyIdleRight</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\background1</background>
     <background>background\background4</background>
-    <background>background\bg_mainMenu</background>
     <background>background\bg_simples</background>
+    <background>background\bg_mainMenu</background>
+    <background>background\background1</background>
+    <background>background\background3</background>
+    <background>background\title_background</background>
+    <background>background\bg_floor2</background>
+    <background>background\bg_floor3</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_options.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_alert</font>
     <font>fonts\fnt_text</font>
     <font>fonts\fnt_stats</font>
+    <font>fonts\fnt_steamwreck</font>
+    <font>fonts\fnt_smallMenu</font>
+    <font>fonts\fnt_numbers</font>
   </fonts>
   <objects name="objects">
+    <objects name="environment">
+      <object>objects\obj_wallAlphaTop</object>
+      <object>objects\obj_invisibleWall</object>
+      <object>objects\obj_wallAlphaEdgeBackground</object>
+      <object>objects\obj_wallAlphaEdgeForeground</object>
+      <object>objects\obj_wallAlphaFrontBackground</object>
+      <object>objects\obj_wallAlphaFrontForeground</object>
+      <object>objects\obj_stairsUp</object>
+      <object>objects\obj_stairsDown</object>
+      <objects name="floor 1">
+        <object>objects\obj_floor1HorizontalWall1</object>
+        <object>objects\obj_floor1HorizontalWall2</object>
+        <object>objects\obj_floor1HorizontalWall3</object>
+        <object>objects\obj_floor1HorizontalWall4</object>
+        <object>objects\obj_floor1HorizontalWall5</object>
+        <object>objects\obj_floor1HorizontalWall6</object>
+        <object>objects\obj_floor1HorizontalWall7</object>
+        <object>objects\obj_floor1HorizontalWall8</object>
+        <object>objects\obj_floor1HorizontalWall9</object>
+        <object>objects\obj_floor1HorizontalWall10</object>
+        <object>objects\obj_floor1VerticalWall1</object>
+        <object>objects\obj_floor1VerticalWall2</object>
+        <object>objects\obj_floor1VerticalWall3</object>
+        <object>objects\obj_floor1VerticalWall4</object>
+        <object>objects\obj_floor1VerticalWall5</object>
+        <object>objects\obj_floor1VerticalWall6</object>
+        <object>objects\obj_floor1VerticalWall7</object>
+        <object>objects\obj_floor1VerticalWall8</object>
+        <object>objects\obj_floor1Desk1</object>
+        <object>objects\obj_floor1Desk2</object>
+      </objects>
+      <objects name="floor 2">
+        <object>objects\obj_floor2HorizontalWall1</object>
+        <object>objects\obj_floor2HorizontalWall2</object>
+        <object>objects\obj_floor2HorizontalWall3</object>
+        <object>objects\obj_floor2HorizontalWall4</object>
+        <object>objects\obj_floor2HorizontalWall5</object>
+        <object>objects\obj_floor2HorizontalWall6</object>
+        <object>objects\obj_floor2HorizontalWall7</object>
+        <object>objects\obj_floor2HorizontalWall8</object>
+        <object>objects\obj_floor2HorizontalWall9</object>
+        <object>objects\obj_floor2VerticalWall1</object>
+        <object>objects\obj_floor2VerticalWall2</object>
+        <object>objects\obj_floor2VerticalWall3</object>
+        <object>objects\obj_floor2VerticalWall4</object>
+        <object>objects\obj_floor2VerticalWall5</object>
+        <object>objects\obj_floor2VerticalWall6</object>
+        <object>objects\obj_floor2VerticalWall7</object>
+        <object>objects\obj_floor2Bookshelf1</object>
+        <object>objects\obj_floor2Bookshelf2</object>
+        <object>objects\obj_floor2Crates</object>
+      </objects>
+      <objects name="floor 3">
+        <object>objects\obj_floor3HorizontalWall1</object>
+        <object>objects\obj_floor3HorizontalWall2</object>
+        <object>objects\obj_floor3HorizontalWall3</object>
+        <object>objects\obj_floor3HorizontalWall4</object>
+        <object>objects\obj_floor3HorizontalWall5</object>
+        <object>objects\obj_floor3HorizontalWall6</object>
+        <object>objects\obj_floor3HorizontalWall7</object>
+        <object>objects\obj_floor3HorizontalWall8</object>
+        <object>objects\obj_floor3HorizontalWall9</object>
+        <object>objects\obj_floor3HorizontalWall10</object>
+        <object>objects\obj_floor3HorizontalWall11</object>
+        <object>objects\obj_floor3HorizontalWall12</object>
+        <object>objects\obj_floor3HorizontalWall13</object>
+        <object>objects\obj_floor3HorizontalWall14</object>
+        <object>objects\obj_floor3HorizontalWall15</object>
+        <object>objects\obj_floor3VerticalWall1</object>
+        <object>objects\obj_floor3VerticalWall2</object>
+        <object>objects\obj_floor3VerticalWall3</object>
+        <object>objects\obj_floor3VerticalWall4</object>
+        <object>objects\obj_floor3VerticalWall5</object>
+        <object>objects\obj_floor3VerticalWall6</object>
+        <object>objects\obj_floor3VerticalWall7</object>
+        <object>objects\obj_floor3VerticalWall8</object>
+        <object>objects\obj_floor3VerticalWall9</object>
+        <object>objects\obj_floor3TeslaCoilLeft</object>
+        <object>objects\obj_floor3TeslaCoilRight</object>
+      </objects>
+    </objects>
     <objects name="prototype">
       <objects name="items">
         <object>objects\obj_attackUp</object>
@@ -82,37 +328,52 @@
         <object>objects\bossArea</object>
       </objects>
     </objects>
-    <object>objects\obj_alphaControl</object>
-    <object>objects\obj_drawStats</object>
+    <objects name="controllers">
+      <object>objects\obj_globals</object>
+      <object>objects\obj_guiController</object>
+      <object>objects\obj_alphaControl</object>
+      <object>objects\obj_playerControl</object>
+    </objects>
     <objects name="player">
       <object>objects\obj_playerOne</object>
       <object>objects\obj_playerTwo</object>
       <objects name="hitboxes">
         <object>objects\obj_hitboxP1</object>
+        <object>objects\obj_specialP1</object>
+        <object>objects\obj_specialAttackSprite</object>
+        <object>objects\obj_specialP2</object>
         <object>objects\obj_hitboxP2</object>
       </objects>
     </objects>
     <objects name="bot">
       <object>objects\obj_spdBot</object>
+      <object>objects\obj_attBot</object>
+      <object>objects\obj_defBot</object>
+      <object>objects\obj_attackSpawn</object>
+      <object>objects\obj_defenseSpawn</object>
+      <object>objects\obj_speedSpawn</object>
     </objects>
-    <object>objects\obj_wallAlphaFrontForeground</object>
-    <object>objects\obj_wallAlphaFrontBackground</object>
-    <object>objects\obj_wallAlphaTop</object>
-    <object>objects\obj_wallAlphaEdgeForeground</object>
-    <object>objects\obj_wallAlphaEdgeBackground</object>
-    <object>objects\obj_stairsDown</object>
-    <object>objects\obj_stairsUp</object>
-    <object>objects\obj_floor1spawn</object>
-    <object>objects\obj_floor2spawn</object>
-    <object>objects\obj_floor3spawn</object>
+    <objects name="main menu">
+      <object>objects\obj_menu</object>
+      <object>objects\obj_title</object>
+      <object>objects\obj_credits</object>
+      <object>objects\obj_sound_control</object>
+    </objects>
+    <object>objects\obj_arenawall</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\main_menu</room>
+    <room>rooms\floor1test</room>
+    <room>rooms\room_mainMenu</room>
+    <room>rooms\room_charSelect</room>
     <room>rooms\room_alpha</room>
     <rooms name="prototype">
       <room>rooms\room_arena</room>
       <room>rooms\room_prototype</room>
       <room>rooms\room_sketch</room>
     </rooms>
+    <room>rooms\options</room>
+    <room>rooms\credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

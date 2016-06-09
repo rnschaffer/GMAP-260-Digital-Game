@@ -8,24 +8,37 @@
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\sprIzzy</sprite>
+    <sprite>sprites\spr_title</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\title_background</background>
+    <background>background\title</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\scr_options.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font0</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_menu</object>
     <object>objects\obj_character_select</object>
+    <objects name="options menu">
+      <object>objects\obj_sound_control</object>
+    </objects>
+    <object>objects\obj_credits</object>
+    <objects name="title screen">
+      <object>objects\obj_menu</object>
+      <object>objects\obj_title</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\main_menu</room>
     <room>rooms\character_select</room>
+    <room>rooms\options</room>
+    <room>rooms\credits</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

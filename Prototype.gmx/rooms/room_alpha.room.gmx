@@ -32,7 +32,7 @@
   </makerSettings>
   <backgrounds>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="-1" foreground="0" name="background1" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -41,9 +41,9 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="obj_playerOne" xview="0" yview="0" wview="1024" hview="1280" xport="0" yport="0" wport="683" hport="640" hborder="256" vborder="256" hspeed="-1" vspeed="-1"/>
-    <view visible="-1" objName="obj_playerTwo" xview="683" yview="0" wview="1024" hview="1280" xport="683" yport="0" wport="683" hport="640" hborder="256" vborder="256" hspeed="-1" vspeed="-1"/>
-    <view visible="-1" objName="obj_alphaControl" xview="3669" yview="6144" wview="1366" hview="128" xport="0" yport="640" wport="1366" hport="128" hborder="0" vborder="0" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="obj_playerOne" xview="0" yview="0" wview="1024" hview="1280" xport="0" yport="0" wport="683" hport="768" hborder="256" vborder="256" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="obj_playerTwo" xview="683" yview="0" wview="1024" hview="1280" xport="683" yport="0" wport="683" hport="768" hborder="256" vborder="256" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="obj_alphaControl" xview="3669" yview="6144" wview="1366" hview="128" xport="0" yport="640" wport="1366" hport="128" hborder="0" vborder="0" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -491,12 +491,12 @@
     <instance objName="obj_wallAlphaFrontForeground" x="2432" y="0" name="inst_E08348E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallAlphaFrontForeground" x="2560" y="0" name="inst_8EC5CD0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallAlphaFrontForeground" x="2304" y="640" name="inst_4D63EB1A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor1spawn" x="896" y="512" name="inst_7FD6FA82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor1spawn" x="1408" y="896" name="inst_100A2CB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor2spawn" x="512" y="3328" name="inst_E6EB29B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor2spawn" x="1024" y="3072" name="inst_039BCCDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor3spawn" x="768" y="5632" name="inst_31C503DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_floor3spawn" x="1920" y="5504" name="inst_20BE472F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_speedSpawn" x="896" y="512" name="inst_7FD6FA82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_speedSpawn" x="1408" y="896" name="inst_100A2CB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_defenseSpawn" x="512" y="3328" name="inst_E6EB29B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_defenseSpawn" x="1024" y="3072" name="inst_039BCCDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_attackSpawn" x="768" y="5632" name="inst_31C503DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_attackSpawn" x="1920" y="5504" name="inst_20BE472F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_alphaControl" x="4352" y="6144" name="inst_4F0B56AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallAlphaFrontForeground" x="128" y="2304" name="inst_883B35B3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallAlphaFrontForeground" x="256" y="2304" name="inst_653F2BE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -605,7 +605,7 @@
     <instance objName="obj_wallAlphaFrontForeground" x="5248" y="1408" name="inst_C6BA4D75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallAlphaFrontForeground" x="5376" y="1920" name="inst_942013BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wallAlphaFrontForeground" x="2944" y="1920" name="inst_654C950F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_drawStats" x="3680" y="6144" name="inst_A18F74C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_playerControl" x="3360" y="3744" name="inst_EF01048C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_simples" x="2816" y="0" w="128" h="128" xo="0" yo="0" id="10000002" name="inst_F7D82A51" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
