@@ -180,6 +180,20 @@
       <sprite>sprites\spr_floor3TeslaCoilLeft</sprite>
       <sprite>sprites\spr_floor3TeslaCoilRight</sprite>
     </sprites>
+    <sprites name="blizzy">
+      <sprite>sprites\spr_blizzyAttackFront</sprite>
+      <sprite>sprites\spr_blizzyAttackBack</sprite>
+      <sprite>sprites\spr_blizzyAttackLeft</sprite>
+      <sprite>sprites\spr_blizzyAttackRight</sprite>
+      <sprite>sprites\spr_blizzyWalkFront</sprite>
+      <sprite>sprites\spr_blizzyWalkBack</sprite>
+      <sprite>sprites\spr_blizzyWalkLeft</sprite>
+      <sprite>sprites\spr_blizzyWalkRight</sprite>
+      <sprite>sprites\spr_blizzyIdleFront</sprite>
+      <sprite>sprites\spr_blizzyIdleBack</sprite>
+      <sprite>sprites\spr_blizzyIdleLeft</sprite>
+      <sprite>sprites\spr_blizzyIdleRight</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background4</background>
